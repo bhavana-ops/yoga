@@ -1,0 +1,141 @@
+body {
+    background-color: black;
+    background: url(https://yoga.ayush.gov.in/yoga/public/assets/front/img/header-bg1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+b {
+    color: navy;
+    font-size: 40px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 2%;
+}
+
+.main div {
+    width: 19%;
+    background-color: grey;
+    border-radius: 10px;
+    margin: 1%;
+    color: black;
+    padding: 1%;
+    text-align: center;
+    height: 600px;
+    box-shadow: inset 0px0px 10px 0px red;
+}
+
+h4 img {
+    height: 59%;
+    width: 100%;
+    border-radius: 10px;
+    border: 3px solid red;
+}
+
+.image div img {
+    width: 100px;
+    height: 400px;
+}
+
+button {
+    border: none;
+    background-color: navy;
+    color: white;
+    border-radius: 10px;
+    height: 20px;
+}
+
+img {
+    width: 70%;
+    height: 40%;
+    border-radius: 50%;
+}
+
+.main div img:hover {
+    transition: all 1s ease;
+    opacity: 1;
+    width: 100%;
+    height: 60%px;
+}
+
+p {
+    height: 150px;
+    width: 150px;
+    overflow: auto;
+    font-size: 20px;
+    background-color: green;
+    border: none;
+    margin-left: 10%;
+    border-radius: 10px;
+    color: white;
+}
+
+h1 {
+    color: purple;
+    font-style: italic;
+    font-size: 35px;
+}
+
+h4 {
+    color: red;
+    font-size: 18px;
+}
+
+h2 button {
+    height: 20px;
+    font-size: large;
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+    padding-bottom: 2%;
+    margin-top: -2%;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    padding-top: 1%;
+    font-size: 30px;
+    font-style: italic;
+    margin-bottom: 2%;
+    margin-top: -1%;
+}
+
+i {
+    color: red;
+}
+
+h5 {
+    margin-left: 60%;
+    font-size: 20px;
+    margin-top: -5%;
+}
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+    /*body {
+        background-color: red;
+    }*/
+    .main {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    body {
+        background-color: red;
+    }
+}
